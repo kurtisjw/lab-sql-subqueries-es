@@ -1,6 +1,6 @@
 USE sakila;
 
--- 1. ¿Cuántas copias de la película El Jorobado Imposible existen en el sistema de inventario?
+-- 1. How many copies of the film Hunchback Impossible exist in the inventory system?
 
 SELECT COUNT(*) AS number_of_copies
 FROM inventory
@@ -20,7 +20,7 @@ SELECT AVG(length)
 FROM film)
 LIMIT 10;
 
--- Use subqueries to display all actors who appear in the film Alone Trip.
+-- 3. Use subqueries to display all actors who appear in the film Alone Trip.
 
 
 SELECT a.actor_id, a.first_name, a.last_name
